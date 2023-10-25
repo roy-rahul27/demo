@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "TabCluster",
+  "version": "1.0",
+  "description": "Automatically groups tabs from the same website under a single bar.",
+  "permissions": ["tabs"],
+  "browser_action": {
+     "default_icon": "tabcluster.png",
+     "default_title": "Tab Grouping"
+  },
+  "background": {
+     "scripts": ["background.js"],
+     "persistent": false
+  },
+  "icons":{
+   "48":"./tabcluster.png"
+  }
+ }
